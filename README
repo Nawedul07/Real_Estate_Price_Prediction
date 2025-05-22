@@ -1,0 +1,74 @@
+# 🏡 Real Estate Price Prediction
+
+This project predicts real estate property prices using machine learning techniques. It leverages housing data to model the relationship between various features (such as location, area, number of rooms, etc.) and property prices.
+
+🔗 **[Click here to view the Colab Notebook](https://colab.research.google.com/drive/13FhnnaPZ-Dx7epurZvr13f2ShbbYsyT8?usp=sharing)**
+
+---
+
+## 📌 Objective
+
+To develop a regression model that can accurately estimate real estate prices based on input features, aiding decision-making for buyers, sellers, and realtors.
+
+---
+
+## 🧾 Features Used
+
+- Location
+- Square Footage / Area
+- Number of Bedrooms
+- Number of Bathrooms
+- BHK
+- Parking
+- Furnishing Status
+- Property Type
+- Availability
+
+---
+
+## 🧠 Models Implemented
+
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- XGBoost Regressor
+
+Models are evaluated using metrics such as:
+- **R² Score**
+- **Mean Absolute Error (MAE)**
+- **Root Mean Squared Error (RMSE)**
+
+---
+
+## 📂 Project Structure
+
+Real_Estate_Price_Prediction/
+├── real_estate_price_prediction.ipynb # Colab Notebook
+├── requirements.txt # Python dependencies
+├── data/ # (optional) dataset files
+├── README.md # Project overview
+├── .gitignore # Ignored files
+└── LICENSE # Usage rights
+## 📊 Dataset
+
+> Dataset used in this project includes property listings with 
+features such as area, location, and amenities. If not publicly available, 
+instructions to download and use the dataset are provided in the notebook.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Real_Estate_Price_Prediction.git
+   cd Real_Estate_Price_Prediction
+Install dependencies:
+bash
+pip install -r requirements.txt
+Run the notebook in Jupyter or Colab.
+
+✍️ Author
+Nawedul
+Let me know if your dataset is from a public source (e.g., Kaggle), 
+and I’ll add the exact link and description too
